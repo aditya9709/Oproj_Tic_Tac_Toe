@@ -50,8 +50,8 @@ const Game = (() => {
 
   const start = () => {
     players = [
-      createPlayer(document.getElementById("player1").ariaValueMax, "X"),
-      createPlayer(document.getElementById("player2").ariaValueMax, "O"),
+      createPlayer(document.getElementById("player1").value, "X"),
+      createPlayer(document.getElementById("player2").value, "O"),
     ];
     currentPlayerIndex = 0;
     gameOver = false;
